@@ -5,11 +5,15 @@ const os = require("os");
 const isTask = process.argv[2] === "--task";
 const downloads = path.join("C:", "Users", os.userInfo().username, "Downloads");
 const dirs = [
-  { name: "pictures", extensions: [".jpg", ".jpeg", ".png", ".gif"] },
+  {
+    name: "pictures",
+    extensions: [".jpg", ".jpeg", ".png", ".gif", ".svg", ".webp"],
+  },
   { name: "videos", extensions: [".mp4", ".mkv"] },
   { name: "audio", extensions: [".mp3"] },
-  { name: "documnets", extensions: [".pdf", ".pptx", ".docx", ".txt"] },
-  { name: "applications", extensions: [".exe"] },
+  { name: "documnets", extensions: [".pdf", ".pptx", ".docx", ".csv"] },
+  { name: "text", extensions: [".txt"] },
+  { name: "applications", extensions: [".exe", ""] },
   { name: "compressed", extensions: [".zip", ".rar"] },
 ];
 const files = fs.readdirSync(downloads);

@@ -11,12 +11,15 @@ const desktop = path.join(
   "Desktop"
 );
 const dirs = [
-  { name: "pictures", extensions: [".jpg", ".jpeg", ".png", ".gif"] },
+  {
+    name: "pictures",
+    extensions: [".jpg", ".jpeg", ".png", ".gif", ".svg", ".webp"],
+  },
   { name: "videos", extensions: [".mp4", ".mkv"] },
   { name: "audio", extensions: [".mp3"] },
-  { name: "documnets", extensions: [".pdf", ".pptx", ".docx"] },
+  { name: "documnets", extensions: [".pdf", ".pptx", ".docx", ".csv"] },
   { name: "text", extensions: [".txt"] },
-  { name: "applications", extensions: [".exe"] },
+  { name: "applications", extensions: [".exe", ""] },
   { name: "compressed", extensions: [".zip", ".rar"] },
 ];
 const files = fs.readdirSync(desktop);
