@@ -24,7 +24,7 @@
   6. Action:
      - Choose the action to perform. Set it to "Start a program." Click "Next" when done.
   7. Program/Script and Arguments:
-     - Set the program/script to run to `node` and the arguments to `path\to\organize-downloads\index.js --task`. Click "Next" when done.
+     - Set the program/script to run to `node` and the arguments to `path\to\organize-desktop\index.js --task`. Click "Next" when done.
   8. Finish:
      - Review the information about the task. If everything looks correct, click "Finish."
 
