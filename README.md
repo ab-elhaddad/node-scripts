@@ -23,3 +23,4 @@ Feel free to contribute to this project. To do so, follow these steps:
 ### Available Scripts 📜
 
 - [organize-downloads](./organize-downloads/README.md): A node.js script to organize downloads folder by file type
+- [organzie-desktop](./organize-desktop/README.md): A node.js script to organize desktop files by file type
